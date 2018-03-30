@@ -1,6 +1,13 @@
 # react-seed-simplify
 
-Features:
+## Developing
+
+``` bash
+$ yarn
+$ yarn start
+```
+
+## Features:
 
 - Lazy Loading
 - HMR
