@@ -1,7 +1,7 @@
 {
   "name": "react-seed-simplify",
-  "version": "0.0.1",
-  "description": "webpack 4.0",
+  "version": "1.0.0",
+  "description": "Modern react app starts here.",
   "main": "src/index.js",
   "scripts": {
     "build:analyse": "webpack --config ./config/webpack.analyse.js",
