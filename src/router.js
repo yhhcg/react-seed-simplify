@@ -6,14 +6,7 @@ import {
 } from 'react-router-dom';
 import lodable from 'react-loadable';
 
-/**
- * Return router
- * @return {Router}
- */
 export default class Router extends React.Component {
-  /**
-   * @param  {Object} props
-   */
   constructor(props) {
     super(props);
 
@@ -36,9 +29,6 @@ export default class Router extends React.Component {
     });
   }
 
-  /**
-   * @return {Component}
-   */
   render() {
     return (
       <BrowserRouter>

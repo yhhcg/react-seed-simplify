@@ -1,6 +1,7 @@
-const path = require('./path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackTemplate = require('html-webpack-template');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const path = require('./path');
 
 module.exports = {
   entry: {
@@ -54,9 +55,9 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       inject: false,
-      template: require('html-webpack-template'),
+      template: HtmlWebpackTemplate,
 
-      title: 'HtmlWebpackPlugin',
+      title: 'react-seed',
       appMountId: 'app',
     }),
   ],

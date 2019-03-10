@@ -1,17 +1,13 @@
 import React from 'react';
-import {hot} from 'react-hot-loader/root';
-import {Link} from 'react-router-dom';
+import { hot } from 'react-hot-loader/root';
+import { Link } from 'react-router-dom';
 import bigPicture from './big-picture.jpg';
 
 /**
  * Detail Page
  */
 @hot
-export default class Detail extends React.Component {
-  /**
-   * Render Detail Page
-   * @return {Component}
-   */
+class Detail extends React.Component {
   render() {
     return (
       <div>
@@ -22,8 +18,10 @@ export default class Detail extends React.Component {
           as inline resources. Other images will be processed by
           file-loader as external resources.
         </div>
-        <img src={bigPicture} />
+        <img alt="" src={bigPicture} />
       </div>
     );
   }
 }
+
+export default Detail;
