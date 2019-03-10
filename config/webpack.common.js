@@ -50,10 +50,7 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(['dist'], {
-      root: path.appPath,
-      verbose: true,
-    }),
+    new CleanWebpackPlugin(),
 
     new HtmlWebpackPlugin({
       inject: false,

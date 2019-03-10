@@ -1,12 +1,12 @@
 import React from 'react';
+import {hot} from 'react-hot-loader/root';
 import {Link} from 'react-router-dom';
 import bigPicture from './big-picture.jpg';
-import {hot} from 'react-hot-loader';
 
-@hot(module)
 /**
  * Detail Page
  */
+@hot
 export default class Detail extends React.Component {
   /**
    * Render Detail Page

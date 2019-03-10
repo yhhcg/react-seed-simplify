@@ -1,8 +1,8 @@
 import React from 'react';
 import {object} from 'prop-types';
+import {hot} from 'react-hot-loader/root';
 import {withStyles} from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
-import {hot} from 'react-hot-loader';
 
 const styles = (theme) => ({
   root: {
@@ -10,7 +10,7 @@ const styles = (theme) => ({
   },
 });
 
-@hot(module)
+@hot
 @withStyles(styles)
 /**
  * List Page
@@ -37,7 +37,7 @@ export default class List extends React.Component {
    */
   onClick() {
     this.setState({
-      count: this.state.count + 1,
+      count: this.state.count + 2,
     });
   }
 
