@@ -59,6 +59,3 @@ typings/
 
 # Release folder
 dist/
-
-# jsDoc path
-out
