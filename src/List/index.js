@@ -1,6 +1,6 @@
 import React from 'react';
 import {object} from 'prop-types';
-import {withStyles} from 'material-ui';
+import {withStyles} from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
 import {hot} from 'react-hot-loader';
 
